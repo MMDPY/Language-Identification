@@ -1,17 +1,9 @@
-# Intro to NLP - Assignment 3
+# Language Identification with Character Level Ngram Language Models
 
-## Team
-|Student name| CCID |
-|------------|------|
-|student 1   |  karimiab   |
-|student 2   |  azamani1   |
 
-## TODOs
+## Data
 
-In this file you **must**:
-- [x] Fill out the team table above. Please note that CCID is **different** from your student number.
-- [x] Acknowledge all resources consulted (discussions, texts, urls, etc.) while working on an assignment. Non-detailed oral discussion with others is permitted as long as any such discussion is summarized and acknowledged by all parties.
-- [x] Provide clear installation and execution instructions that TAs must follow to execute your code.
+The training data can be found in [data/train](data/train) and the development data can be found in [data/dev](data/dev).
 
 ## Execution
 Example usage: use the following command in the current directory.
@@ -36,17 +28,4 @@ For knowing which N was selected as the best fit and what was the accuracy of th
 
 - For the interpolated language model:
 `python3 src/main.py data/train/ data/dev/ output/ --bestInterpolation`
-
-
-## Data
-
-The assignment's training data can be found in [data/train](data/train) and the development data can be found in [data/dev](data/dev).
-
-## Acknowledgment
-This assignment was done using python's standard libraries and instructors' lectures and the main textbook (J&M).
-
-We also reviewed NLTK documentation about [Ngrams](https://www.nltk.org/api/nltk.lm.html).
-
-We also had a discussion with one of the other students: Yousef Nademi regarding the smoothing methods.
-
 
